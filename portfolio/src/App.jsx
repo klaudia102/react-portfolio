@@ -1,10 +1,12 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import { Router } from 'react-router-dom'
 
 import Home from './components/pages/Home'
+import Contact from './components/pages/Contact'
+import ProjectGallery from './components/pages/ProjectGallery'
+
 function App() {
 
   return (
@@ -12,7 +14,8 @@ function App() {
     <NavTabs />
     <Routes>
       < Route path="/" element={<Home />} />
-
+      < Route path="/contact" element={<Contact />} />
+      < Route path="/gallery" element={<ProjectGallery />} />
     </Routes>
    </Router>
 
