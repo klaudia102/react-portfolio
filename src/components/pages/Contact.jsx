@@ -1,26 +1,65 @@
 import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
+import '../assets/style/contact.css'
 
 
-function Contact(props) {
+function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-    
-    </div>
+    <>
+      <div nameClass='contact-container'>
+
+        <div nameClass='contact-info'>
+
+       
+        <h2> Check me out!</h2>
+        <p> Email: k.kierepka.a@gmail.com (or you can use form below!)</p>
+        <p>Mobile: 07930997665</p>
+        <a href='https://www.linkedin.com/in/klaudia-kierepka' target='blank'>LinkedIn</a> <br />
+        <a href='https://github.com/klaudia102' target='blank'>GitHub</a> <br />
+        <a href='' target='blank'>email</a>
+ </div>
+
+
+        <div className='contact-form'>
+          <form nameClass="row g-3 needs-validation" novalidate>
+            <div nameClass="col-md-4 position-relative">
+              <label for="validationTooltip01" nameClass="form-label">First name</label>
+              <input type="text" nameClass="form-control" id="validationTooltip01" value="Mark" required />
+              <div nameClass="valid-tooltip">
+              </div>
+            </div>
+            <div nameClass="col-md-4 position-relative">
+              <label for="validationTooltip02" nameClass="form-label">Last name</label>
+              <input type="text" nameClass="form-control" id="validationTooltip02" value="Otto" required />
+              <div nameClass="valid-tooltip">
+              </div>
+            </div>
+            <div nameClass="col-md-4 position-relative">
+              <label for="validationTooltipUsername" nameClass="form-label">Email</label>
+              <div nameClass="input-group has-validation">
+                <span nameClass="input-group-text" id="validationTooltipUsernamePrepend"></span>
+                <input type="text" nameClass="form-control"
+                  id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required />
+                <div nameClass="invalid-tooltip">
+                </div>
+              </div>
+            </div>
+            <form nameClass="was-validated">
+              <div nameClass="mb-3">
+                <label for="validationTextarea" nameClass="form-label">Textarea</label>
+                <textarea nameClass="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+                <div nameClass="invalid-feedback">
+                  Please enter a message in the textarea.
+                </div>
+              </div>
+            </form>
+            <div nameClass="col-12">
+              <button nameClass="btn btn-primary" type="submit">Submit form</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </>
   );
 }
 
