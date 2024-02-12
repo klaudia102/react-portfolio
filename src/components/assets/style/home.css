@@ -1,0 +1,26 @@
+
+.baner {
+    background-color: rgb(12, 59, 121) !important;
+    align-content: center;
+    }
+img  {
+    width: 300px;
+    
+}
+
+.baner {
+    font-size: 150% !important;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(185, 97, 212);
+}
+h1 {
+    color: beige;
+}
+p1 {
+    display: flex;
+    justify-content: left;
+}
+h1, h2, p2, img {
+    display: flex;
+    justify-content: center;
+}
