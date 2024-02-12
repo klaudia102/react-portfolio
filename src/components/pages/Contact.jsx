@@ -6,20 +6,16 @@ import '../assets/style/contact.css'
 function Contact() {
   return (
     <>
-      <div nameClass='contact-container'>
-
-        <div nameClass='contact-info'>
-
-       
-        <h2> Check me out!</h2>
-        <p> Email: k.kierepka.a@gmail.com (or you can use form below!)</p>
-        <p>Mobile: 07930997665</p>
-        <a href='https://www.linkedin.com/in/klaudia-kierepka' target='blank'>LinkedIn</a> <br />
-        <a href='https://github.com/klaudia102' target='blank'>GitHub</a> <br />
-        <a href='' target='blank'>email</a>
- </div>
-
-
+     <div className='contact-container'>
+       <div className='contact-info'>
+       <h2> Check me out!</h2>
+          <p1> Email: k.kierepka.a@gmail.com</p1> 
+          <p1> (or you can use form below!)</p1>
+          <p2>Mobile: 07930997665</p2>
+          <a href='https://www.linkedin.com/in/klaudia-kierepka' target='blank' className='link'>LinkedIn</a> 
+          <a href='https://github.com/klaudia102' target='blank' className='link' >GitHub</a>
+          <a href='' target='blank' className='link'>Download my CV</a>
+       </div>
         <div className='contact-form'>
           <form nameClass="row g-3 needs-validation" novalidate>
             <div nameClass="col-md-4 position-relative">
@@ -58,7 +54,7 @@ function Contact() {
             </div>
           </form>
         </div>
-      </div>
+     </div>
     </>
   );
 }
