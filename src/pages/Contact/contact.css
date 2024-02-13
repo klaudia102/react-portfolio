@@ -19,7 +19,8 @@
     padding: 10%;
 }
 h2 {
-    margin-bottom: 5%;
+    padding-bottom: 5%;
+   padding-top: 5%;
     font-size: 50px;
 }
 p1, p2  {
@@ -27,12 +28,14 @@ p1, p2  {
     padding: 2px;
     font-size: 25px;
 }
+.links {
+    margin-bottom: 20px;
+}
 .link {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2px;
-    margin-bottom: 5px;
+    padding: 10px;
     font-size: 25px;
 }
 .contact-form-container {

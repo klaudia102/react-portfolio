@@ -12,9 +12,11 @@ function Contact() {
           <p1> Email: k.kierepka.a@gmail.com</p1>
           <p1> (or you can use form below!)</p1>
           <p2>Mobile: 07930997665</p2>
+          <div className='links'>
           <a href='https://www.linkedin.com/in/klaudia-kierepka' target='blank' className='link'>LinkedIn</a>
           <a href='https://github.com/klaudia102' target='blank' className='link' >GitHub</a>
           <a href='' target='blank' className='link'>Download my CV</a>
+          </div>
         </div>
         {/* contact input */}
         <div className='contact-form-container'>
