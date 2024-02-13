@@ -28,6 +28,7 @@ p1, p2  {
     align-items: center;
     padding: 2px;
     margin-bottom: 5px;
+    font-size: 25px;
 }
 .contact-form-container {
     background-color: rgb(12, 59, 121) !important;

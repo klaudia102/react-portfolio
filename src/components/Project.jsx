@@ -9,7 +9,6 @@ import '../assets/style/project.css'
 //  GIF or screenshot of the deployed application
 // Must render dynamically 6 instances of the Project component
 //  Be sure to store your project data in a JSON file and import it into your project
-// Update GitHub profile with pinned repositories featuring those same projects.
 function Project() {
   return (
   <>

@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import '../assets/style/home.css'
 
+
 function Home() {
     return <>
         <div className="p-5 mb-4 bg-body-tertiary rounded-3 baner">
@@ -17,7 +18,7 @@ function Home() {
                  Have a look st my previous project and if you like them...<br/>
                  don't wait, give me a call or drop en email!
             </p2>
-            <img src='../assers/images/IMG_0560(1).jpg'/>
+            <img src='public/IMG_0560(1).jpg'/>
         </div>
     </>
 }
