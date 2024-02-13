@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
-import '../assets/style/project.css'
+import './project.css'
 
 // A list of projects (Challenges or Projects). For each project, make sure you have the following:
 //  Project title

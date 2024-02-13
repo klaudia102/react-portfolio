@@ -1,13 +1,13 @@
-.container {
-    background-color: rgb(12, 59, 121) !important;
+.container-footer {
+    background-color: rgb(247, 244, 230) !important;
     align-content: center;
     display: flex;
     justify-content:space-around;
-    font-size: 150% !important;
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(185, 97, 212);
-    margin: auto;
+   
+   font-size: 20px;
+    color: rgb(12, 59, 121);
     padding: 20px;
-    border-radius: 15px;
+    
     width: 100%;
+    margin: 0;
 }
