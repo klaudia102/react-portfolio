@@ -4,11 +4,11 @@ import { useState } from 'react'
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import Home from './components/pages/Home'
-import Contact from './components/pages/Contact'
-import ProjectGallery from './components/pages/ProjectGallery'
-import Header from './components/Header'
-import Footer from './components/footer'
+import Home from './pages/Home/Home'
+import Contact from './pages/Contact/Contact'
+import ProjectGallery from './pages/ProjectGallery/ProjectGallery'
+import Header from './components/header/Header'
+import Footer from './components/footer/footer'
 
 function App() {
 
