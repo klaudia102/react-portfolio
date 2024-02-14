@@ -8,45 +8,45 @@ const projects = [
         title: 'Wordsmith',
         deploy: 'https://klaudia102.github.io/WordSmith/',
         repo: 'https://github.com/klaudia102/WordSmith',
-        screenshot: 'public/wordsmith',
+        screenshot: '/wordsmith.PNG',
     },
     {
         title: 'Team Profile Generator',
         deploy: 'https://klaudia102.github.io/Team-Profile-Generator/',
         repo: 'https://github.com/klaudia102/Team-Profile-Generator',
-        screenshot: 'public/team-profile-generator',
+        screenshot: 'public/team-profile-generator.png',
     },
     {
         title: 'Generate ReadMe.md',
         deploy: 'https://klaudia102.github.io/Team-Profile-Generator/',
         repo: 'https://github.com/klaudia102/generatorREADME.md',
-        screenshot: 'public/generate Readme.md',
+        screenshot: 'public/generate Readme.md.png',
     },
     {
         title: 'password-generator',
         deploy: 'https://klaudia102.github.io/password-generator/',
         repo: 'https://github.com/klaudia102/password-generator',
-        screenshot: 'public/password-generator',
+        screenshot: 'public/password-generator.png',
     },
     {
         title: 'Klaudia-portfolio',
         deploy: 'https://klaudia102.github.io/Klaudia-portfolio/',
         repo: 'https://github.com/klaudia102/Klaudia-portfolio',
-        screenshot: 'public/Klaudia-portfolio',
+        screenshot: 'public/Klaudia-portfolio.png',
     },
     {
         title: 'Bootstrap-portfolio',
         deploy: 'https://klaudia102.github.io/Bootstrap-Portfolio/',
         repo: 'https://github.com/klaudia102/Bootstrap-Portfolio',
-        screenshot: 'public/Bootstrap-Portfolio',
+        screenshot: 'public/Bootstrap-Portfolio.png',
     }
-]
+] 
 
 function ProjectGallery() {
     return (
         <>
             <div className='container-gallery'>
-                <div className="container-fluid py-5 jumboCopy">
+                <div className="container-fluid py-5">
                     <h1 className="display-5 fw-bold">My projects</h1>
                     <h2>Would you like to see your dream website here...?</h2>
                 </div>
@@ -57,7 +57,6 @@ function ProjectGallery() {
                         )
                     })}
                 </div>
-
             </div>
         </>
     )

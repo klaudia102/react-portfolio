@@ -52,6 +52,11 @@ p1, p2  {
 .label1 {
     padding-right: 15px !important;
 }
-input1 {
+.input1 {
     color: beige;
+}
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
