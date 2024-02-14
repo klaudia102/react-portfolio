@@ -1,0 +1,15 @@
+.container-gallery {
+    background-color: rgb(247, 244, 230) !important;
+    /* align-content: center;
+    font-size: 150% !important; */
+    color: rgb(12, 59, 121);
+    padding: 0 !important ;
+    /* margin: 0 !important;
+    border-radius: 15px; */
+}
+/* .gallery-space {
+    
+} */
+.gallery-card {
+    width: 18rem;
+}
