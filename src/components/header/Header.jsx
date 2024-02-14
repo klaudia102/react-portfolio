@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 function Header() {
   return (
     <>
-    <div ClassName='container'>
+    <div ClassName='container-header'>
     <ul className="nav nav-tabs ">
       <li className="nav-item">
         <NavLink
