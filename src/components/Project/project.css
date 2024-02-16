@@ -1,5 +1,5 @@
 .gallery-card {
-    width: 50rem;
+    width: auto;
     margin: 2% !important;
     border-radius: 15px !important;
 }
