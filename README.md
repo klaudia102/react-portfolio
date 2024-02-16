@@ -38,5 +38,4 @@ N/A
 N/A
 
 ## Link
-
-https://klaudia102.github.io/Bootstrap-Portfolio/
+https://klaudia102.github.io/react-portfolio/
