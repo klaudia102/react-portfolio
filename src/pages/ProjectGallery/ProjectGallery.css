@@ -13,3 +13,11 @@
 img {
     height: 50%;
 }
+
+@media all and (max-width: 1000px) {
+    .gallery-space {
+        display: flex;
+        flex-direction: column;
+    }
+}
+    
