@@ -8,7 +8,7 @@ const projects = [
         "title": "Wordsmith",
         "deploy": "https://klaudia102.github.io/WordSmith/",
         "repo": "https://github.com/klaudia102/WordSmith",
-        "screenshot": "/wordsmith.PNG",
+        "screenshot": "public/wordsmith.PNG",
     },
     {
         "title": "Team Profile Generator",
