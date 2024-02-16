@@ -52,7 +52,7 @@ function Contact() {
               </div>
             </form>
             <div nameClass="col-12 button-container">
-            <button className="btn btn-primary" type="submit">Submit</button>
+              <button className="btn btn-primary" type="submit">Submit</button>
             </div>
           </form>
         </div>

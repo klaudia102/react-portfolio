@@ -40,7 +40,7 @@ const projects = [
         repo: 'https://github.com/klaudia102/Bootstrap-Portfolio',
         screenshot: 'public/Bootstrap-Portfolio.png',
     }
-] 
+]
 
 function ProjectGallery() {
     return (

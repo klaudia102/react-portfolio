@@ -1,22 +1,27 @@
 .gallery-card {
     width: 50rem;
     margin: 2% !important;
-    border-radius: 15px !important; 
+    border-radius: 15px !important;
 }
-h5, p {
+
+h5,
+p {
     color: rgb(12, 59, 121) !important;
 }
+
 .button-container {
     display: flex;
     justify-content: space-around;
 }
-.deploy{
+
+.deploy {
     margin: 5px;
     width: 6rem;
     color: rgb(12, 59, 121) !important;
     background-color: rgb(247, 244, 230) !important;
 }
-.repo{
+
+.repo {
     margin: 5px;
     width: 6rem;
     color: rgb(12, 59, 121) !important;
@@ -28,4 +33,3 @@ h5, p {
         width: auto;
     }
 }
-    
