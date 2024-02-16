@@ -15,7 +15,7 @@ function Contact() {
           <div className='links'>
             <a href='https://www.linkedin.com/in/klaudia-kierepka' target='blank' className='link'>LinkedIn</a>
             <a href='https://github.com/klaudia102' target='blank' className='link' >GitHub</a>
-            <a href='' target='blank' className='link'>Download my CV</a>
+            <a href='public/Klaudia Kierepka-CV.pdf' target='blank' className='link'>Download my CV</a>
           </div>
         </div>
         {/* contact input */}
@@ -51,8 +51,8 @@ function Contact() {
                 </div>
               </div>
             </form>
-            <div nameClass="col-12">
-              <button nameClass="btn btn-primary" type="submit">Submit form</button>
+            <div nameClass="col-12 button-container">
+              <button className="btn btn-primary" type="submit">Submit</button>
             </div>
           </form>
         </div>
