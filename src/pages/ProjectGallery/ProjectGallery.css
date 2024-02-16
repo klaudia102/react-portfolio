@@ -7,10 +7,10 @@
 .gallery-space {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:safe;
     padding: 10%;
     padding-top: 0;
-    ;
+    
 }
 
 img {
